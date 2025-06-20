@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HarmonyHub | Music Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <i class="fas fa-music"></i>
+                <span>HarmonyHub</span>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Playlists</a></li>
+                    <li><a href="#">Premium</a></li>
+                </ul>
+            </nav>
+            
+            <div class="user-actions">
+                <button><i class="fas fa-user"></i> Sign In</button>
+                <button><i class="fas fa-arrow-right-to-bracket"></i> Register</button>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Your Music Gallery</h1>
+            <p>Explore, organize, and enjoy your music collection with our beautiful gallery interface</p>
+        </div>
+    </section>
+    
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Gallery Controls -->
+        <!-- <div class="gallery-controls">
+            <button class="filter-btn active">All Music</button>
+            <button class="filter-btn">Recently Added</button>
+            <button class="filter-btn">Most Played</button>
+            <button class="filter-btn">Albums</button>
+            <button class="filter-btn">Playlists</button>
+        </div> -->
+        
+        <!-- Music Gallery -->
+        <div class="section-title">
+            <h2>Music Collection</h2>
+        </div>
+        
+        <div class="gallery-grid">
+            <!-- Gallery Item 1 -->
+            <div class="gallery-item">
+                <div class="gallery-thumb float">
+                    <i class="fas fa-compact-disc"></i>
+                    <!-- <div class="play-btn"><i class="fas fa-play"></i></div> -->
+                </div>
+                <div class="gallery-content">
+                    <audio controls><source src="code.mp3"><h3 class="gallery-title">Summer Vibes</h3></audio>
+                    <p class="gallery-artist">Code Waves</p>
+                    <div class="gallery-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-clock"></i>
+                            <span>2:31 Min</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-music"></i>
+                            <span>12 Tracks</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Gallery Item 2 -->
+            <div class="gallery-item">
+                <div class="gallery-thumb float" style="animation-delay: 0.5s;">
+                    <i class="fas fa-compact-disc"></i>
+                    <!-- <div class="play-btn"><i class="fas fa-play"></i></div> -->
+                </div>
+                <div class="gallery-content">
+                    <audio controls><source src="battle.mp3"><h3 class="gallery-title">Summer Vibes</h3></audio>
+                    <p class="gallery-artist">City Beats</p>
+                    <div class="gallery-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-clock"></i>
+                            <span>38 Min</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-music"></i>
+                            <span>10 Tracks</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Gallery Item 3 -->
+            <div class="gallery-item">
+                <div class="gallery-thumb float" style="animation-delay: 1s;">
+                    <i class="fas fa-compact-disc"></i>
+                    <!-- <div class="play-btn"><i class="fas fa-play"></i></div> -->
+                </div>
+                <div class="gallery-content">
+                    <audio controls><source src="code.mp3"><h3 class="gallery-title">Summer Vibes</h3></audio>
+                    <p class="gallery-artist">Moonlight Collective</p>
+                    <div class="gallery-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-clock"></i>
+                            <span>32 Min</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-music"></i>
+                            <span>8 Tracks</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Gallery Item 4 -->
+            <div class="gallery-item">
+                <div class="gallery-thumb float" style="animation-delay: 1.5s;">
+                    <i class="fas fa-compact-disc"></i>
+                    <!-- <div class="play-btn"><i class="fas fa-play"></i></div> -->
+                </div>
+                <div class="gallery-content">
+                    <audio controls><source src="code.mp3"><h3 class="gallery-title">Summer Vibes</h3></audio>
+                    <p class="gallery-artist">Synthwave Collective</p>
+                    <div class="gallery-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-clock"></i>
+                            <span>52 Min</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-music"></i>
+                            <span>14 Tracks</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Gallery Item 5 -->
+            <div class="gallery-item">
+                <div class="gallery-thumb float" style="animation-delay: 2s;">
+                    <i class="fas fa-compact-disc"></i>
+                    <!-- <div class="play-btn"><i class="fas fa-play"></i></div> -->
+                </div>
+                <div class="gallery-content">
+                    <audio controls><source src="code.mp3"><h3 class="gallery-title">Summer Vibes</h3></audio>
+                    <p class="gallery-artist">Sand Dunes Band</p>
+                    <div class="gallery-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-clock"></i>
+                            <span>41 Min</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-music"></i>
+                            <span>11 Tracks</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Gallery Item 6 -->
+            <div class="gallery-item">
+                <div class="gallery-thumb float" style="animation-delay: 2.5s;">
+                    <i class="fas fa-compact-disc"></i>
+                    <!-- <div class="play-btn"><i class="fas fa-play"></i></div> -->
+                </div>
+                <div class="gallery-content">
+                    <audio controls><source src="code.mp3"><h3 class="gallery-title">Summer Vibes</h3></audio>
+                    <p class="gallery-artist">Coastal Sounds</p>
+                    <div class="gallery-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-clock"></i>
+                            <span>36 Min</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-music"></i>
+                            <span>9 Tracks</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Audio Player -->
+        <!-- <section class="player-section">
+            <div class="player-header">
+                <h2 class="section-title" style="text-align: left; margin: 0;">
+                    <i class="fas fa-play-circle"></i> Now Playing
+                </h2>
+            </div>
+            
+            <div class="player-controls">
+                <div class="track-info">
+                    <div class="track-thumb">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <div class="track-details">
+                        <div class="track-title">Morning Coffee</div>
+                        <div class="track-artist">Jazz Ensemble</div>
+                    </div>
+                </div>
+                
+                <div class="progress-area">
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="timer">
+                        <span class="current-time">1:24</span>
+                        <span class="max-duration">3:45</span>
+                    </div>
+                </div>
+                
+                <div class="controls">
+                    <button class="control-btn">
+                        <i class="fas fa-step-backward"></i>
+                    </button>
+                    <button class="control-btn">
+                        <i class="fas fa-backward"></i>
+                    </button>
+                    <button class="control-btn play-pause">
+                        <i class="fas fa-pause"></i>
+                    </button>
+                    <button class="control-btn">
+                        <i class="fas fa-forward"></i>
+                    </button>
+                    <button class="control-btn">
+                        <i class="fas fa-step-forward"></i>
+                    </button>
+                </div>
+            </div>
+        </section> -->
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>HarmonyHub</h3>
+                <p>Your ultimate music streaming platform with millions of songs, curated playlists, and personalized recommendations.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=100030403433946"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/satyamsinha110?igsh=Z 3M2Z3psbnlueWdw"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-spotify"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Discover</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Gallery</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Playlists</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Premium</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Support</h3>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Help Center</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Community</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> FAQs</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Privacy Policy</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>Subscribe to receive updates, new features, and exclusive offers.</p>
+                <form>
+                    <input type="email" placeholder="Your email address" style="width: 100%; padding: 12px; border-radius: 30px; border: none; margin-bottom: 15px;">
+                    <button type="submit" style="background: white; color: #FC350B; border: none; padding: 12px 25px; border-radius: 30px; font-weight: 600; cursor: pointer; transition: all 0.3s ease;">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>© 2023 HarmonyHub Music Platform. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
